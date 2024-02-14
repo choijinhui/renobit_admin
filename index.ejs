@@ -1,0 +1,42 @@
+<%= htmlWebpackPlugin.options.config.jsp %>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="utf-8" http-equiv="X-UA-Compatible" content="IE=edge" >
+        <title>MANAGER</title>
+        <link rel="shortcut icon" href="./admin/static/image/favicon.ico" type="image/x-icon">
+        <%= htmlWebpackPlugin.options.config.script %>
+        <script src="./admin/static/libs/AesUtil.js"></script>
+        <script src="./admin/static/libs/aes.js"></script>
+        <script src="./admin/static/libs/base64.js"></script>
+        <script src="./admin/static/libs/pbkdf2.js"></script>
+        <script src="./admin/static/libs/sha256.js"></script>
+
+        <script src="./admin/static/libs/vue_libs/httpVueLoader.js"></script>
+        <script src="./admin/static/libs/css.js"></script>
+
+        <script src="./admin/static/libs/jquery/jquery-3.2.1.min.js"></script>
+        <script src="./admin/static/libs/jquery-ui/jquery-ui.min.js"></script>
+        <script src="./admin/static/libs/jquery.jstree/jstree.js"></script>
+
+        <link href="./admin/static/libs/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+        <script src="./admin/static/libs/jquery.nestable/jquery.nestable.js"></script>
+        <link href="./admin/static/libs/jquery.nestable/jquery.nestable.custom.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div id="app"></div>
+        <%= htmlWebpackPlugin.options.config.trialExpire %>
+        <!-- built files will be auto injected -->
+    </body>
+    <style>
+        .logo {
+            background-image: url('./admin/static/image/admin-logo.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
+
+    </html>

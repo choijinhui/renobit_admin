@@ -1,0 +1,10 @@
+export const ADMIN_GRADE = "admin0000000000000000000000000000000";
+export const RENOBIT = 'renobit'
+export const PNID = 'pnid'
+export const RENOBIT_CHECK_STORAGE_KEY = 'renobitInstalled'
+export const PNID_CHECK_STORAGE_KEY = 'pnidInstalled'
+export const RENOBIT_CONTEXT_STORAGE_KEY = 'context_renobit'
+export const PNID_CONTEXT_STORAGE_KEY = 'context_pnid'
+export const RENOBIT_DEFAULT_CONTEXT_PATH = '/renobit'
+export const PNID_DEFAULT_CONTEXT_PATH = '/pnid'
+export const CHECK_SOLUTION_SUCCESS = 'ok'

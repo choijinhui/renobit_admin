@@ -1,0 +1,165 @@
+div {
+  padding: 0;
+}
+/* 스크롤바 css */
+/*::-webkit-scrollbar-track
+{
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-color: #cbcbd1;
+}*/
+
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.no-wrap {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.flex-scroll {
+  flex: 1 !important;
+  overflow: auto !important;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 25px;
+  padding: 0.5rem;
+  border-bottom: 1px solid #e9ecef;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+}
+
+.title {
+  width: 100%;
+  font-size: 16px;
+  color: #1c1c1c;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.modal-header > span {
+  color: #1c1c1c;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.close-modal-btn > i {
+  cursor: pointer;
+  font-size: 17px;
+  color: #666;
+  line-height: 17px;
+  user-select: none;
+}
+
+.title-bullet {
+  width: 10px;
+  height: 10px;
+  margin-right: 7px;
+  background: url(./assets/image/bullet01.png);
+}
+
+/* search-field (search icon) */
+.search-field {
+  width: 320px;
+  position: relative;
+}
+
+.search-field input {
+  padding-left: 1.8rem;
+}
+
+.search-field .left-icon {
+  position: absolute;
+  left: .6rem;
+  top: .55rem;
+}
+
+.search-field .fa-close {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.search-field .right-icon {
+  position: absolute;
+  top: .55rem;
+  right: .6rem;
+  cursor: pointer;
+}
+
+
+.el-table .caret-wrapper {
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 34px;
+    width: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+    overflow: initial;
+    position: relative;
+}
+
+.el-table .sort-caret {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    position: absolute;
+}
+
+.el-table .sort-caret.descending {
+    border-top-color: #c0c4cc;
+    bottom: 7px;
+}
+
+.el-table .sort-caret.ascending {
+    border-bottom-color: #c0c4cc;
+    top: 5px;
+}
+
+.el-table .ascending .sort-caret.ascending {
+    border-bottom-color: #363a45;
+}
+
+.el-table .descending .sort-caret.descending {
+    border-top-color: #363a45;
+}
+
+.el-table td, .el-table th {
+    padding: 0px;
+}
+
+.el-tooltip__popper {
+  max-height: 431px;
+  display: -webkit-box;
+  -webkit-line-clamp: 30;
+  -webkit-box-orient: vertical;
+  box-sizing: border-box;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
